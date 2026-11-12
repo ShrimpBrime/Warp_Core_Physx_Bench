@@ -67,8 +67,6 @@ Benchmark reports are not automatically uploaded.
 The single-executable package extracts its components into a fresh per-user runtime folder, verifies their hashes, and retains file locks while the main application runs. Normal exit removes that launch's extracted files; saved results remain available. A forced termination can leave an extraction folder behind.
 
 For taskbar pinning, create or pin a shortcut to the outer WarpCoreBench.exe, rather than the running application inside its temporary extraction folder.
-Building from source
-Use START_HERE_BUILD_AND_RUN.cmd for the development build, or BUILD_AND_SIGN.cmd for the complete signed portable tester package.
 
 The developer build requires Visual Studio 2022 C++ build tools, CMake, and a matching compiled PhysX SDK. The complete tester package requires the GPU-enabled PhysX SDK and Vulkan worker. Its signing step uses a configured Azure signing account and verifies timestamped signatures before publishing release output.
 
@@ -78,3 +76,5 @@ artifacts\WarpCoreBench_v0.99h_TESTERS.zip
 Release packaging includes SHA-256 files. Check the executable's Digital Signatures tab to verify the published binary's signature. Code signing identifies the publisher and protects file integrity; it does not certify benchmark accuracy or competitive anti-cheat protection.
 Third-party components
 Built with NVIDIA PhysX, raylib, and Vulkan headers. Applicable licenses and notices accompany the packaged application. Product and technology names belong to their respective owners.
+
+V0.99i has updated Font and 2k / 4k monitor upscaling.
