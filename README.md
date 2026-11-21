@@ -5,7 +5,9 @@ Warp Core Bench combines CPU, CUDA, and Vulkan benchmark paths with a customizab
 
 Developer: ShrimpBrime™ · Warp9-Systems™
 
-<iframe width="458" height="814" src="https://www.youtube.com/embed/sXN0Pnyt614" title="WarpCore New Features Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch Warp Core — New Features](https://img.youtube.com/vi/sXN0Pnyt614/hqdefault.jpg)](https://www.youtube.com/shorts/sXN0Pnyt614)
+
+**▶ Click the image to watch on YouTube.**
 
 
 Warp Core Bench
